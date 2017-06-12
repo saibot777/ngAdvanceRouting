@@ -9,31 +9,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var login_component_1 = require('./login.component');
-var auth_service_1 = require('./auth.service');
-var shared_module_1 = require('../shared/shared.module');
-var router_1 = require("@angular/router");
-var UserModule = (function () {
-    function UserModule() {
+var router_1 = require('@angular/router');
+var welcome_component_1 = require('./home/welcome.component');
+var page_not_found_component_1 = require('./page-not-found.component');
+var AppRoutingModule = (function () {
+    function AppRoutingModule() {
     }
-    UserModule = __decorate([
+    AppRoutingModule = __decorate([
         core_1.NgModule({
             imports: [
-                shared_module_1.SharedModule,
-                router_1.RouterModule.forChild([
-                    { path: 'login', component: login_component_1.LoginComponent }
+                router_1.RouterModule.forRoot([
+                    { path: 'welcome', component: welcome_component_1.WelcomeComponent },
+                    { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+                    { path: '**', component: page_not_found_component_1.PageNotFoundComponent }
                 ])
             ],
-            declarations: [
-                login_component_1.LoginComponent
-            ],
-            providers: [
-                auth_service_1.AuthService
-            ]
+            exports: [router_1.RouterModule]
         }), 
         __metadata('design:paramtypes', [])
-    ], UserModule);
-    return UserModule;
+    ], AppRoutingModule);
+    return AppRoutingModule;
 }());
-exports.UserModule = UserModule;
-//# sourceMappingURL=user.module.js.map
+exports.AppRoutingModule = AppRoutingModule;
+//# sourceMappingURL=app-routing.module.js.map
