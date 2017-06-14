@@ -20,7 +20,7 @@ var AppComponent = (function () {
     AppComponent.prototype.logOut = function () {
         this.authService.logout();
         this.router.navigateByUrl('/welcome');
-        console.log('Log out');
+        console.log('Log Out');
     };
     AppComponent = __decorate([
         core_1.Component({
