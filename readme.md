@@ -1,8 +1,3 @@
-
-## Description
-
-These are the starter files for the Angular Routing course on Pluralsight 
-
 ## Installation
 
 1) Open a command prompt in the project's root directory (APM)
