@@ -23,48 +23,48 @@
             <table class="table"
                    *ngIf="products && products.length">
                 <thead>
-                <tr>
-                    <th>
-                        <button class="btn btn-primary"
+                    <tr>
+                        <th>
+                            <button class="btn btn-primary"
                                 (click)="toggleImage()">
-                            {{showImage ? "Hide" : "Show"}} Image
-                        </button>
-                    </th>
-                    <th>Product</th>
-                    <th>Code</th>
-                    <th>Available</th>
-                    <th>Price</th>
-                    <th>5 Star Rating</th>
-                </tr>
+                                {{showImage ? "Hide" : "Show"}} Image
+                            </button>
+                        </th>
+                        <th>Product</th>
+                        <th>Code</th>
+                        <th>Available</th>
+                        <th>Price</th>
+                        <th>5 Star Rating</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr *ngFor="let product of products | productFilter:listFilter">
-                    <td>
-                        <img *ngIf="showImage && product.imageUrl"
-                             [src]="product.imageUrl"
-                             [title]="product.productName | uppercase"
-                             [style.width.px]="imageWidth"
-                             [style.margin.px]="imageMargin">
-                    </td>
-                    <td><a [routerLink]="['/products', product.id]"
-                           [queryParams]="{filterBy: listFilter, showImage: showImage}">
-                        {{product.productName}}
-                    </a>
-                    </td>
-                    <td>{{ product.productCode | lowercase }}</td>
-                    <td>{{ product.releaseDate }}</td>
-                    <td>{{ product.price | currency:"USD":true:"1.2-2" }}</td>
-                    <td>
-                        <ai-star [rating]="product.starRating">
-                        </ai-star>
-                    </td>
-                    <td>
-                        <a class="btn btn-primary"
-                           [routerLink]="['/products', product.id, 'edit']">
-                            Edit
-                        </a>
-                    </td>
-                </tr>
+                    <tr *ngFor="let product of products | productFilter:listFilter">
+                        <td>
+                            <img *ngIf="showImage && product.imageUrl"
+                                 [src]="product.imageUrl"
+                                 [title]="product.productName | uppercase"
+                                 [style.width.px]="imageWidth" 
+                                 [style.margin.px]="imageMargin">
+                        </td>
+                        <td><a [routerLink]="['/products', product.id]"
+                               [queryParams]="{filterBy: listFilter, showImage: showImage}">
+                            {{product.productName}}
+                            </a>
+                        </td>
+                        <td>{{ product.productCode | lowercase }}</td>
+                        <td>{{ product.releaseDate }}</td>
+                        <td>{{ product.price | currency:"USD":true:"1.2-2" }}</td>
+                        <td>
+                            <ai-star [rating]="product.starRating">
+                            </ai-star>
+                       </td>
+                       <td>
+                            <a class="btn btn-primary"
+                               [routerLink]="['/products', product.id, 'edit']">
+                                Edit
+                            </a>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>

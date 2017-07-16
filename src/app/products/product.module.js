@@ -13,10 +13,12 @@ var router_1 = require('@angular/router');
 var product_list_component_1 = require('./product-list.component');
 var product_detail_component_1 = require('./product-detail.component');
 var product_edit_component_1 = require('./product-edit.component');
+var product_edit_info_component_1 = require('./product-edit-info.component');
+var product_edit_tags_component_1 = require('./product-edit-tags.component');
 var product_filter_pipe_1 = require('./product-filter.pipe');
 var product_service_1 = require('./product.service');
+var product_resolver_service_1 = require('./product-resolver.service');
 var shared_module_1 = require('../shared/shared.module');
-var product_resolver_service_1 = require("./product-resolver.service");
 var ProductModule = (function () {
     function ProductModule() {
     }
@@ -29,24 +31,41 @@ var ProductModule = (function () {
                     {
                         path: 'products/:id',
                         component: product_detail_component_1.ProductDetailComponent,
-                        resolve: { product: product_resolver_service_1.ProductResolverService }
+                        resolve: { product: product_resolver_service_1.ProductResolver }
                     },
                     {
                         path: 'products/:id/edit',
                         component: product_edit_component_1.ProductEditComponent,
-                        resolve: { product: product_resolver_service_1.ProductResolverService }
-                    },
+                        resolve: { product: product_resolver_service_1.ProductResolver },
+                        children: [
+                            {
+                                path: '',
+                                redirectTo: 'info',
+                                pathMatch: 'full'
+                            },
+                            {
+                                path: 'info',
+                                component: product_edit_info_component_1.ProductEditInfoComponent
+                            },
+                            {
+                                path: 'tags',
+                                component: product_edit_tags_component_1.ProductEditTagsComponent
+                            }
+                        ]
+                    }
                 ])
             ],
             declarations: [
                 product_list_component_1.ProductListComponent,
                 product_detail_component_1.ProductDetailComponent,
                 product_edit_component_1.ProductEditComponent,
+                product_edit_info_component_1.ProductEditInfoComponent,
+                product_edit_tags_component_1.ProductEditTagsComponent,
                 product_filter_pipe_1.ProductFilterPipe
             ],
             providers: [
                 product_service_1.ProductService,
-                product_resolver_service_1.ProductResolverService
+                product_resolver_service_1.ProductResolver
             ]
         }), 
         __metadata('design:paramtypes', [])

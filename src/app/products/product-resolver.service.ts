@@ -1,21 +1,22 @@
-/**
- * Created by Stefan on 7/16/2017.
- */
+import { Injectable } from '@angular/core';
+import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
 
-import {Injectable} from "@angular/core";
-import {ActivatedRouteSnapshot, Resolve, Router, RouterStateSnapshot} from "@angular/router";
-import {IProduct} from "./product";
-import {Observable} from "rxjs/Observable";
-import {ProductService} from "./product.service";
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/of';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/map';
+
+import { ProductService } from './product.service';
+import { IProduct } from './product';
 
 @Injectable()
-export class ProductResolverService implements Resolve<IProduct> {
+export class ProductResolver implements Resolve<IProduct> {
 
-    constructor(private productService : ProductService,
-                private router : Router) {}
+    constructor(private productService: ProductService,
+                private router: Router) { }
 
-    resolve(route : ActivatedRouteSnapshot, state : RouterStateSnapshot): Observable<IProduct> {
-        let id = +route.params['id'];
+    resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<IProduct> {
+        let id = route.params['id'];
         if (isNaN(id)) {
             console.log(`Product id was not a number: ${id}`);
             this.router.navigate(['/products']);
@@ -31,7 +32,7 @@ export class ProductResolverService implements Resolve<IProduct> {
                 return null;
             })
             .catch(error => {
-                console.log(`retrieval error: ${error}`);
+                console.log(`Retrieval error: ${error}`);
                 this.router.navigate(['/products']);
                 return Observable.of(null);
             });

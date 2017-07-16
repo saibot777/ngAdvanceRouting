@@ -1,6 +1,3 @@
-/**
- * Created by Stefan on 7/16/2017.
- */
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11,18 +8,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var router_1 = require("@angular/router");
-var Observable_1 = require("rxjs/Observable");
-var product_service_1 = require("./product.service");
-var ProductResolverService = (function () {
-    function ProductResolverService(productService, router) {
+var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
+var Observable_1 = require('rxjs/Observable');
+require('rxjs/add/observable/of');
+require('rxjs/add/operator/catch');
+require('rxjs/add/operator/map');
+var product_service_1 = require('./product.service');
+var ProductResolver = (function () {
+    function ProductResolver(productService, router) {
         this.productService = productService;
         this.router = router;
     }
-    ProductResolverService.prototype.resolve = function (route, state) {
+    ProductResolver.prototype.resolve = function (route, state) {
         var _this = this;
-        var id = +route.params['id'];
+        var id = route.params['id'];
         if (isNaN(id)) {
             console.log("Product id was not a number: " + id);
             this.router.navigate(['/products']);
@@ -38,16 +38,16 @@ var ProductResolverService = (function () {
             return null;
         })
             .catch(function (error) {
-            console.log("retrieval error: " + error);
+            console.log("Retrieval error: " + error);
             _this.router.navigate(['/products']);
             return Observable_1.Observable.of(null);
         });
     };
-    ProductResolverService = __decorate([
+    ProductResolver = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [product_service_1.ProductService, router_1.Router])
-    ], ProductResolverService);
-    return ProductResolverService;
+    ], ProductResolver);
+    return ProductResolver;
 }());
-exports.ProductResolverService = ProductResolverService;
+exports.ProductResolver = ProductResolver;
 //# sourceMappingURL=product-resolver.service.js.map

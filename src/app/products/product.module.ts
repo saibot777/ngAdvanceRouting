@@ -4,12 +4,14 @@ import { RouterModule } from '@angular/router';
 import { ProductListComponent } from './product-list.component';
 import { ProductDetailComponent } from './product-detail.component';
 import { ProductEditComponent } from './product-edit.component';
+import { ProductEditInfoComponent } from './product-edit-info.component';
+import { ProductEditTagsComponent } from './product-edit-tags.component';
 
 import { ProductFilterPipe } from './product-filter.pipe';
 import { ProductService } from './product.service';
+import { ProductResolver } from './product-resolver.service';
 
 import { SharedModule } from '../shared/shared.module';
-import {ProductResolverService} from "./product-resolver.service";
 
 @NgModule({
   imports: [
@@ -17,26 +19,43 @@ import {ProductResolverService} from "./product-resolver.service";
     RouterModule.forChild([
       { path: 'products', component: ProductListComponent },
       {
-          path: 'products/:id',
-          component: ProductDetailComponent,
-          resolve: { product: ProductResolverService }
-       },
-        {
-            path: 'products/:id/edit',
-            component: ProductEditComponent,
-            resolve: { product: ProductResolverService }
-        },
+        path: 'products/:id',
+        component: ProductDetailComponent,
+        resolve: { product: ProductResolver }
+      },
+      {
+        path: 'products/:id/edit',
+        component: ProductEditComponent,
+        resolve: { product: ProductResolver },
+        children: [
+          {
+            path: '',
+            redirectTo: 'info',
+            pathMatch: 'full'
+          },
+          {
+            path: 'info',
+            component: ProductEditInfoComponent
+          },
+          {
+            path: 'tags',
+            component: ProductEditTagsComponent
+          }
+        ]
+      }
     ])
   ],
   declarations: [
     ProductListComponent,
     ProductDetailComponent,
     ProductEditComponent,
+    ProductEditInfoComponent,
+    ProductEditTagsComponent,
     ProductFilterPipe
   ],
   providers: [
     ProductService,
-    ProductResolverService
+    ProductResolver
   ]
 })
-export class ProductModule {}
+export class ProductModule { }
