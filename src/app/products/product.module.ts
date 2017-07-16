@@ -9,14 +9,23 @@ import { ProductFilterPipe } from './product-filter.pipe';
 import { ProductService } from './product.service';
 
 import { SharedModule } from '../shared/shared.module';
+import {ProductResolverService} from "./product-resolver.service";
 
 @NgModule({
   imports: [
     SharedModule,
     RouterModule.forChild([
       { path: 'products', component: ProductListComponent },
-      { path: 'products/:id', component: ProductDetailComponent },
-      { path: 'products/:id/edit', component: ProductEditComponent }
+      {
+          path: 'products/:id',
+          component: ProductDetailComponent,
+          resolve: { product: ProductResolverService }
+       },
+        {
+            path: 'products/:id/edit',
+            component: ProductEditComponent,
+            resolve: { product: ProductResolverService }
+        },
     ])
   ],
   declarations: [
@@ -26,7 +35,8 @@ import { SharedModule } from '../shared/shared.module';
     ProductFilterPipe
   ],
   providers: [
-    ProductService
+    ProductService,
+    ProductResolverService
   ]
 })
 export class ProductModule {}
