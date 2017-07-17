@@ -12,13 +12,21 @@ var core_1 = require('@angular/core');
 var shared_module_1 = require('../shared/shared.module');
 var message_component_1 = require('./message.component');
 var message_service_1 = require('./message.service');
+var router_1 = require("@angular/router");
 var MessageModule = (function () {
     function MessageModule() {
     }
     MessageModule = __decorate([
         core_1.NgModule({
             imports: [
-                shared_module_1.SharedModule
+                shared_module_1.SharedModule,
+                router_1.RouterModule.forChild([
+                    {
+                        path: 'messages',
+                        component: message_component_1.MessageComponent,
+                        outlet: 'popup'
+                    }
+                ])
             ],
             declarations: [
                 message_component_1.MessageComponent
