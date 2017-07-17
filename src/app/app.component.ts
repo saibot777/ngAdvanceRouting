@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { AuthService } from './user/auth.service';
-import { Router } from "@angular/router";
+import {NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Event, Router} from "@angular/router";
 
 @Component({
     selector: 'pm-app',
@@ -9,8 +9,25 @@ import { Router } from "@angular/router";
 })
 export class AppComponent {
     pageTitle: string = 'Acme Product Management';
+    loading: boolean = true;
 
-    constructor(private authService: AuthService, private router : Router) { }
+    constructor(private authService: AuthService, private router : Router) {
+        router.events.subscribe((routerEvent: Event) => {
+            this.checkRouterEvent(routerEvent);
+        });
+    }
+
+    checkRouterEvent(routerEvent: Event): void {
+        if (routerEvent instanceof NavigationStart) {
+            this.loading = true;
+        }
+
+        if (routerEvent instanceof NavigationEnd ||
+            routerEvent instanceof NavigationCancel ||
+            routerEvent instanceof NavigationError) {
+            this.loading = false;
+        }
+    }
 
     logOut(): void {
         this.authService.logout();
