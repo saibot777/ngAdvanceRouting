@@ -30,7 +30,7 @@ li {
 }*/
 
 /* Slide transition */
-/*pm-app div.panel.panel-primary {
+pm-app div.panel.panel-primary {
     animation-duration: .5s;
     animation-name: slideIn;
     animation-fill-mode: forwards;
@@ -38,14 +38,14 @@ li {
 }
 
 @keyframes slideIn {
-  from {
-    transform: translate(-200px);
-  }
+    from {
+        transform: translate(-200px);
+    }
 
-  to {
-    transform: translate(0px);
-  }
-}*/
+    to {
+        transform: translate(0px);
+    }
+}
 
 /* Spinner */
 .spinner {
