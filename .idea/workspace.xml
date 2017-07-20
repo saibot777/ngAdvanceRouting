@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="72fc9e76-b214-42b9-844a-46884075562a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/products/product-edit.component.js" afterPath="$PROJECT_DIR$/src/app/products/product-edit.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/products/product-edit.component.js.map" afterPath="$PROJECT_DIR$/src/app/products/product-edit.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/products/product-edit.component.ts" afterPath="$PROJECT_DIR$/src/app/products/product-edit.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/products/product.module.js" afterPath="$PROJECT_DIR$/src/app/products/product.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/products/product.module.js.map" afterPath="$PROJECT_DIR$/src/app/products/product.module.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/products/product.module.ts" afterPath="$PROJECT_DIR$/src/app/products/product.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/auth.service.js.map" afterPath="$PROJECT_DIR$/src/app/user/auth.service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/auth.service.ts" afterPath="$PROJECT_DIR$/src/app/user/auth.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/login.component.ts" afterPath="$PROJECT_DIR$/src/app/user/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/user.module.js" afterPath="$PROJECT_DIR$/src/app/user/user.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/user.module.js.map" afterPath="$PROJECT_DIR$/src/app/user/user.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/user.module.ts" afterPath="$PROJECT_DIR$/src/app/user/user.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/auth-guard.service.js.map" afterPath="$PROJECT_DIR$/src/app/user/auth-guard.service.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/user/auth-guard.service.ts" afterPath="$PROJECT_DIR$/src/app/user/auth-guard.service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,16 +22,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="auth-guard.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/user/auth-guard.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#43#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-guard.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/products/product-guard.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-edit.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/products/product-edit.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+              <folding>
+                <marker date="1500557471439" expanded="true" signature="2921:3902" ph="..." />
               </folding>
             </state>
           </provider>
@@ -41,8 +63,8 @@
       <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/user/auth.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-377">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -50,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/user/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="425">
               <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -65,7 +87,7 @@
       <file leaf-file-name="user.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/user/user.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="238">
               <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -77,8 +99,8 @@
       <file leaf-file-name="product.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/products/product.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -105,7 +127,6 @@
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/src/app/products/product-resolver.service.ts" />
         <option value="$PROJECT_DIR$/src/app/products/product-detail.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit.component.ts" />
         <option value="$PROJECT_DIR$/src/app/products/product-edit-tags.component.ts" />
         <option value="$PROJECT_DIR$/src/app/products/product-edit-info.component.ts" />
         <option value="$PROJECT_DIR$/src/app/products/product-edit.component.html" />
@@ -116,16 +137,25 @@
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/user/user.module.ts" />
-        <option value="$PROJECT_DIR$/src/app/products/product.module.ts" />
         <option value="$PROJECT_DIR$/src/app/user/auth.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/user/auth-guard.service.ts" />
         <option value="$PROJECT_DIR$/src/app/user/login.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/user/auth-guard.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/products/product-guard.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/products/product.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit.component.ts" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -134,7 +164,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="13" />
     <option name="y" value="8" />
     <option name="width" value="1364" />
@@ -158,130 +188,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngAdvanceRouting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="ngAdvanceRouting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ngAdvanceRouting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ngAdvanceRouting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ngAdvanceRouting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ngAdvanceRouting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ngAdvanceRouting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ngAdvanceRouting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ngAdvanceRouting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/tslint" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.tslint" value="C:\Users\Stefan\Desktop\ngAdvanceRouting\node_modules\tslint" />
+    <property name="node.js.selected.package.tslint" value="C:\Users\stefan.trajkovic\Desktop\ngAdvanceRouting\node_modules\tslint" />
     <property name="typescript-compiler-editor-notification" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
@@ -298,6 +245,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -333,15 +288,6 @@
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -380,18 +326,19 @@
       <workItem from="1500314597779" duration="10360000" />
       <workItem from="1500405137796" duration="370000" />
       <workItem from="1500411962240" duration="1499000" />
+      <workItem from="1500555610948" duration="1925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21713000" />
+    <option name="totallyTimeSpent" value="23638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="8" width="1364" height="319" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2425816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -411,63 +358,65 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/main.js.map" />
-        <option value="$PROJECT_DIR$/src/app/app.component.js" />
-        <option value="$PROJECT_DIR$/src/app/app.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/app.module.js" />
-        <option value="$PROJECT_DIR$/src/app/app.module.js.map" />
-        <option value="$PROJECT_DIR$/src/app/app-routing.module.js" />
-        <option value="$PROJECT_DIR$/src/app/app-routing.module.js.map" />
-        <option value="$PROJECT_DIR$/src/app/page-not-found.component.js" />
-        <option value="$PROJECT_DIR$/src/app/page-not-found.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-resolver.service.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-resolver.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit.component.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit-tags.component.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit-tags.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit-info.component.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-edit-info.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-filter.pipe.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-filter.pipe.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-data.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-data.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-detail.component.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-detail.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product.service.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-list.component.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-list.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/messages/message.component.js" />
+        <option value="$PROJECT_DIR$/src/app/messages/message.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/messages/message.service.js" />
+        <option value="$PROJECT_DIR$/src/app/messages/message.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/messages/message.module.js" />
+        <option value="$PROJECT_DIR$/src/app/messages/message.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/shared/shared.module.js" />
+        <option value="$PROJECT_DIR$/src/app/shared/shared.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/shared/star.component.js" />
+        <option value="$PROJECT_DIR$/src/app/shared/star.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/user/user.js" />
+        <option value="$PROJECT_DIR$/src/app/user/user.js.map" />
         <option value="$PROJECT_DIR$/src/app/home/welcome.component.js" />
         <option value="$PROJECT_DIR$/src/app/home/welcome.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/user/auth.service.js" />
-        <option value="$PROJECT_DIR$/src/app/user/auth.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/page-not-found.component.js" />
+        <option value="$PROJECT_DIR$/src/app/page-not-found.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/src/app/app-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/src/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/src/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/main.js.map" />
+        <option value="$PROJECT_DIR$/src/app/user/auth-guard.service.js" />
+        <option value="$PROJECT_DIR$/src/app/user/auth-guard.service.js.map" />
         <option value="$PROJECT_DIR$/src/app/user/user.module.js" />
         <option value="$PROJECT_DIR$/src/app/user/user.module.js.map" />
         <option value="$PROJECT_DIR$/src/app/user/login.component.js" />
         <option value="$PROJECT_DIR$/src/app/user/login.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/user/user.js" />
-        <option value="$PROJECT_DIR$/src/app/user/user.js.map" />
-        <option value="$PROJECT_DIR$/src/app/shared/star.component.js" />
-        <option value="$PROJECT_DIR$/src/app/shared/star.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/shared/shared.module.js" />
-        <option value="$PROJECT_DIR$/src/app/shared/shared.module.js.map" />
-        <option value="$PROJECT_DIR$/src/app/messages/message.module.js" />
-        <option value="$PROJECT_DIR$/src/app/messages/message.module.js.map" />
-        <option value="$PROJECT_DIR$/src/app/messages/message.service.js" />
-        <option value="$PROJECT_DIR$/src/app/messages/message.service.js.map" />
-        <option value="$PROJECT_DIR$/src/app/messages/message.component.js" />
-        <option value="$PROJECT_DIR$/src/app/messages/message.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-list.component.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-list.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product.service.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product.service.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-detail.component.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-detail.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-data.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-data.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-filter.pipe.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-filter.pipe.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit-info.component.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit-info.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit-tags.component.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit-tags.component.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit.component.js" />
-        <option value="$PROJECT_DIR$/src/app/products/product-edit.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/user/auth.service.js" />
+        <option value="$PROJECT_DIR$/src/app/user/auth.service.js.map" />
         <option value="$PROJECT_DIR$/src/app/products/product.module.js" />
         <option value="$PROJECT_DIR$/src/app/products/product.module.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-resolver.service.js.map" />
-        <option value="$PROJECT_DIR$/src/app/products/product-resolver.service.js" />
-        <option value="$PROJECT_DIR$/src/app/user/auth-guard.service.js" />
-        <option value="$PROJECT_DIR$/src/app/user/auth-guard.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/products/product-guard.service.js" />
+        <option value="$PROJECT_DIR$/src/app/products/product-guard.service.js.map" />
       </list>
     </option>
   </component>
@@ -479,21 +428,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/messages/message.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/messages/message.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,14 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1500209188582" expanded="true" signature="202:449" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="289:434" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="333:414" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="524:639" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="575:624" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,7 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,14 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1500209188582" expanded="true" signature="202:449" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="289:434" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="333:414" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="524:639" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="575:624" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/products/product-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/products/product-edit.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -806,13 +716,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/user/user.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="238">
           <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -820,19 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/products/product.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/messages/message.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,14 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1500209188582" expanded="true" signature="202:449" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="289:434" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="333:414" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="524:639" ph="..." />
-            <marker date="1500209188582" expanded="true" signature="575:624" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,20 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/user/auth-guard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#43#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/user/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -903,10 +782,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/user/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
+        <state relative-caret-position="425">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/user/auth-guard.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#43#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/products/product-guard.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/products/product.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/products/product-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <marker date="1500557471439" expanded="true" signature="2921:3902" ph="..." />
           </folding>
         </state>
       </provider>
